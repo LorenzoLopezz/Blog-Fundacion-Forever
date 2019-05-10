@@ -1,0 +1,178 @@
+body {
+	padding-bottom: 20px;
+	background: #F2F2F2;
+}
+
+button {
+	outline: none;
+}
+
+.upd { 
+	transform: translate3d(-50px, 38px, 0px);
+}
+
+.pad-0 {
+	padding: 0;
+}
+
+.mar-0 {
+	margin: 0;
+}
+
+.left-text {
+	text-align: left;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.right-text {
+	text-align: right;
+}
+
+.btn-size-100 {
+	width: 100%;
+}
+
+.btn-size-75 {
+	width: 75%;
+}
+
+.no-resalt {
+	color: inherit;
+}
+
+.no-resalt:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.hidden {
+	display: none;
+}
+
+.hide {
+	position: relative;
+	margin-left: 1000px;
+	margin-top: -1000px;
+	opacity: 0;
+}
+/*--------------*/
+
+.fecha {
+	color:  #f2f2f2;
+}
+
+.slide-box {
+	height: 400px;
+	overflow: hidden;
+}
+
+.desc-slide-item {
+	background: rgba(47, 167, 214,0.7);
+	padding: 10px 15px;
+	color: white;
+	height: 150px;
+	width: 100%;
+	margin-top: 250px;
+	position: absolute;
+}
+
+.slide-item {
+	z-index: 100;
+	width: 100%;
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+}
+
+.slide-item-h {
+	opacity: 0;
+	z-index: -100;
+	transition: all 0.3s ease-in-out;
+}
+
+.dot {
+	height: 5px;
+	width: 20px;
+	margin: 8px 8px;
+	background-color: #bbb;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active {
+	background-color: #2FA7D6;
+}
+
+.img-cut {
+	height: 200px;
+	overflow: hidden;
+}
+
+.desc-main-note {
+	background: #8CC63E;
+	padding: 15px;
+	color: white;
+}
+
+.secondary-note {
+	background: #E5E5E5;
+	padding: 10px;
+}
+
+.img-cut-small {
+	height: 150px;
+	overflow: hidden;
+}
+
+.reactions-box {
+	background: #E5E5E5;
+	padding: 10px;
+}
+
+.reaction-body {
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px solid #A7A7A7;
+}
+
+#section-notice, #section-notes {
+	margin-top: 20px;
+}
+
+.login-box {
+	background: white;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.sidebar-box {
+	padding: 15px; 
+	background: white;
+	margin-bottom: 15px;
+}
+
+.stadistics {
+	font-size: 1.2rem;
+}
+
+.icon-s {
+	padding-top: 5px;
+}
+
+.comments {
+	margin-top: 20px;
+	opacity: 1;
+	transition: 0.3s all ease-in-out;
+}
+
+.comments_H {
+	margin-top: 20px;
+	opacity: 0;
+	transition: 0.3s all ease-in-out;
+}
+
+#notes-contenido > p > img {
+	width: 100%;
+}
